@@ -10,7 +10,7 @@ list_of_files = [
     "data/.gitkeep",
     "src/__init__.py",
     "data",
-    "data/customer_activity.csv"
+    "data/customer_activity.csv",
     "src/data_preprocessing.py",
     "src/feature_engineering.py",
     "src/model_training.py",

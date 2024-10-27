@@ -15,6 +15,7 @@ list_of_files = [
     "src/data_preprocessing.py",
     "src/feature_engineering.py",
     "src/model_training.py",
+    "src/model_training.py",
     "src/model_evaluation.py",
     "src/prediction.py",
     "tests/__init__.py",

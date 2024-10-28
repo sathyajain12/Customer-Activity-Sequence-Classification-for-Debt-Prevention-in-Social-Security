@@ -17,8 +17,8 @@ list_of_files = [
     "src/model_training.py",
     "src/model_evaluation.py",
     "src/prediction.py",
+    "src/logger.py,"
     "main.py",
-    "logger.py",
     "tests/__init__.py",
     "experiment/experiments.ipynb",
     "init_setup.sh",

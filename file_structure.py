@@ -9,15 +9,16 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 list_of_files = [
     "data/.gitkeep",
     "src/__init__.py",
-    "src/data_loader.py"
+    "src/data_loader.py",
     "data",
     "data/customer_activity.csv",
     "src/data_preprocessing.py",
     "src/feature_engineering.py",
     "src/model_training.py",
-    "src/model_training.py",
     "src/model_evaluation.py",
     "src/prediction.py",
+    "main.py",
+    "logger.py",
     "tests/__init__.py",
     "experiment/experiments.ipynb",
     "init_setup.sh",

@@ -1,0 +1,28 @@
+2024-10-28 22:05:11,625 - INFO - Data loaded successfully from C:/Users/sathy/OneDrive/Desktop/Social security/Customer-Activity-Sequence-Classification-for-Debt-Prevention-in-Social-Security/data/customer_activity.csv 
+2024-10-28 22:05:11,625 - INFO - Dataset shape: (12553, 8)
+2024-10-28 22:05:11,626 - INFO - Dataset columns: ['Customer_ID', 'Activity_Type', 'Time_Since_Last_Activity', 'Activity_Amount', 'Account_Age', 'Previous_Debts', 'Monthly_Income', 'Debt_Status']
+2024-10-28 22:05:11,628 - INFO - Missing values in dataset:
+Customer_ID                 0
+Activity_Type               0
+Time_Since_Last_Activity    0
+Activity_Amount             0
+Account_Age                 0
+Previous_Debts              0
+Monthly_Income              0
+Debt_Status                 0
+dtype: int64
+2024-10-28 22:05:11,636 - INFO - Data preview:
+   Customer_ID   Activity_Type  Time_Since_Last_Activity  Activity_Amount  Account_Age  Previous_Debts  Monthly_Income   Debt_Status
+0            1  missed_payment                        14             0.00          120               1         1380.26  no_debt_risk
+1            1         inquiry                         8             0.00          120               1         1380.26  no_debt_risk
+2            1         payment                        21           693.03          120               1         1380.26  no_debt_risk
+3            1         payment                         1           400.72          120               1         1380.26  no_debt_risk
+4            1       overdraft                         9           193.55          120               1         1380.26  no_debt_risk
+2024-10-28 22:05:11,659 - INFO - Missing values handled
+2024-10-28 22:05:11,667 - INFO - Categorical variables encoded
+2024-10-28 22:05:11,681 - INFO - Numerical features scaled
+2024-10-28 22:05:11,689 - INFO - Data split into training and testing sets
+2024-10-28 22:05:11,691 - INFO - Training features shape: (10042, 7)
+2024-10-28 22:05:11,692 - INFO - Testing features shape: (2511, 7)
+2024-10-28 22:05:11,693 - INFO - Training target shape: (10042,)
+2024-10-28 22:05:11,693 - INFO - Testing target shape: (2511,)
